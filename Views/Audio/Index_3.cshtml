@@ -1,0 +1,51 @@
+﻿<p href="https://www.mp3hq.org/" class="logo">
+    Mp3HQ
+</p>
+<h1>Shayx Muhammad Sodiq Muhammad Yusuf audio ma`ruzalari</h1>
+
+
+@{
+    for (int i = 30; i < 45; i++)
+    {
+    <audio class="audio" controls>
+                        <source src="/audio/@i..mp3">
+    </audio>
+    <br />
+    }
+
+}
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+
+          @for(int i = 1; i < 6; i++){
+              if(i == 3){
+            if (i == 1)
+            {
+                <li class="page-item"><a asp-controller="Audio" asp-action="Index" class="page-link">1</a></li>
+                
+            }
+            <li class="page-item active"><a asp-controller="Audio" asp-action="Index_@i" class="page-link">@i</a></li>
+          }else{
+        <li class="page-item "><a asp-controller="Audio" asp-action="Index_@i" class="page-link">@i</a></li>
+          }
+          }
+        </ul>
+</nav>
+<style>
+    .audio {
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 250px;
+        width: 600px;
+        background-color: red;
+    }
+
+
+
+    .logo {
+        margin-left: 400px;
+        color: #7437e8;
+        font-size: 4rem;
+        font-family: 'Carter One', cursive;
+    }
+</style>

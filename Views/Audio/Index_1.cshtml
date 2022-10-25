@@ -1,0 +1,54 @@
+﻿<p href="https://www.mp3hq.org/" class="logo">
+    Mp3HQ
+</p>
+<h1>Shayx Muhammad Sodiq Muhammad Yusuf audio ma`ruzalari</h1>
+
+
+@{
+    for (int i = 1; i < 15; i++)
+    {
+    <audio class="audio" controls>
+                                                        <source src="/audio/@i..mp3">
+    </audio><br />
+    }
+
+}
+<div class="div">
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+        @for(int i = 1; i < 6; i++){
+            if (i == 1)
+            {
+                <li class="page-item active"><a asp-controller="Audio" asp-action="Index_1" class="page-link">1</a></li>
+                i++;
+            }
+            <li class="page-item"><a asp-controller="Audio" asp-action="Index_@i" class="page-link">@i</a></li>
+
+        }
+    </ul>
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="w-100" viewBox="0 0 16 16">
+        <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z" />
+    </svg>
+</nav>
+</div>
+    <style>
+        .audio{
+            border-radius:10px;
+            margin-top: 15px;
+            margin-left: 250px;
+            width:600px;
+            background-color:red;
+        }
+
+   .div{
+       display:flex;
+   }
+
+    .logo {
+        
+        margin-left:400px;
+        color: #7437e8;
+        font-size: 4rem;
+        font-family: 'Carter One', cursive;
+    }
+</style>

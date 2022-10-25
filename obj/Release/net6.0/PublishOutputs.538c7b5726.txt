@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\shayx.exe
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\shayx.dll
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\shayx.deps.json
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\shayx.runtimeconfig.json
+C:\Users\Admin\source\repos\shayx\shayx\shayx\obj\Release\net6.0\PubTmp\Out\shayx.pdb
